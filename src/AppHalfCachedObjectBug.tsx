@@ -40,7 +40,6 @@ function Inner2() {
   const [fruitId, setFruitId] = React.useState(2);
   const { loading, error, data } = useQuery(SCREEN_2_QUERY, {
     notifyOnNetworkStatusChange: true,
-    pollInterval: 5 * 1000,
     variables: { id: fruitId },
   });
 
