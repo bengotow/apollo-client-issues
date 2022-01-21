@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './AppNewVariablesOldDataBug';
+import App from './AppHalfCachedObjectBug';
 
 ReactDOM.render(
   <React.StrictMode>
